@@ -1,0 +1,16 @@
+{
+  "name": "@sempera/examples",
+  "version": "0.1.0",
+  "description": "Small runnable examples of the Sempera API in Node, Python and curl: calls, inbound webhooks, texting, calendar booking and CSV batches",
+  "license": "MIT",
+  "author": "Sempera Labs, Inc. <hello@sempera.org>",
+  "homepage": "https://github.com/Sempera-AI/sempera-examples#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/Sempera-AI/sempera-examples.git" },
+  "bugs": { "url": "https://github.com/Sempera-AI/sempera-examples/issues" },
+  "keywords": ["sempera", "voice", "phone", "ai", "examples"],
+  "type": "module",
+  "engines": { "node": ">=18.3" },
+  "scripts": {
+    "test": "node --test test/examples.test.mjs && python3 test/test-examples.py"
+  }
+}
